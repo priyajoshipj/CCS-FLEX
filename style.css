@@ -1,33 +1,37 @@
 .container{
-   border: 2px solid black;
+   /* border: 2px solid black; */
    width: auto;
    height: 100%;
    display: flex;
    direction: column;
    padding: 15px;
+   background-color: #00203fff;
+  
 }
 
 .sub-container{
     width: 50%;
-    border: 2px solid pink;
+    border: 2px solid white;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     justify-content: center;  
-    overflow: scroll;  
+    /* overflow: scroll;   */
+    grid-gap: 5px;
     height: 550px;
  }
 
- .sub-container :nth-child(2n+2){
-    overflow: hidden;
-    height:auto;
- }
+.question-area{
+   overflow: hidden;
+   height:auto !important;
+   color: white;
+}
 
 .item {
     height: 90px;
     width: 90px;
-    background-color: #3498db;
+    background-color:#adefd1ff;
     padding: 5px;
     margin: 5px;
 }
