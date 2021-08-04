@@ -1,0 +1,33 @@
+.container{
+   border: 2px solid black;
+   width: auto;
+   height: 100%;
+   display: flex;
+   direction: column;
+   padding: 15px;
+}
+
+.sub-container{
+    width: 50%;
+    border: 2px solid pink;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;  
+    overflow: scroll; 
+    height: 550px;
+ }
+
+ .sub-container :nth-child(2n+2){
+    overflow: hidden;
+    height:auto;
+ }
+
+.item {
+    height: 90px;
+    width: 90px;
+    background-color: #3498db;
+    padding: 5px;
+    margin: 5px;
+}
